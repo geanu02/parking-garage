@@ -6,11 +6,5 @@ class Garage:
     def sample_method(self):
         print(self.sample_string)
 
-    def takeTicket(self):
-        pass
 
-    def payForParking(self):
-        pass
-
-    def leaveGarage(self):
-        pass
+    def takeTicket(self,)

@@ -1,4 +1,5 @@
 import random
+
 class Garage:
 
     def __init__(self, tickets = ["ticket1", "ticket2", "ticket3", "ticket4", "ticket5"], parkingSpaces = [101, 102, 103, 104, 105], currentTicket = {}):
@@ -64,4 +65,24 @@ class Garage:
             else:
                 print("Invalid Ticket Number. Please try again.")
 
-    
+    def driver(self):
+        while True:
+            # Take Ticket, Pay For Parking, Leave Garage, Quit
+            print("Type\nT to Take Ticket\nP to Pay for Parking\nL to Leave Garage\nQ to Quit.")
+            
+            input_driver = input("What would you like to do? ").lower()
+
+            if input_driver == 't':
+                print(self.takeTicket())
+
+            elif input_driver == 'p':
+                self.payForParking()
+
+            elif input_driver == 'l':
+                self.leaveGarage()
+
+            elif input_driver == 'q':
+                break
+
+            else:
+                print("Invalid input. Please try again.")

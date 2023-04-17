@@ -56,5 +56,18 @@ https://github.com/geanu02/parking-garage
 ### Breakdown of Tasks:
 
 - Gian (Original)
+   - set up currentTicket dictionary with int randomizer for unique keys
+   - leaveGarage method
+   - driver method
+   - instantiate Garage class
+
+   main.py           Lines 1 - 10
+   parkingGarage.py  Lines 1, 3, 12, 43 - 66, 68 - 88
 
 - MD (Collaborator)
+   - __init__ method
+   - tickets, parkingSpaces and currentTicket attributes
+   - takeTicket method
+   - payForParking method
+
+   parkingGarage.py  Lines 5 - 8, 10 - 21, 24 - 40

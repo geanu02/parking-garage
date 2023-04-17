@@ -39,7 +39,6 @@ class Garage:
             else:
                 print("Invalid Ticket Number. Please try again.")
 
-
     def leaveGarage(self):
         while True:
             ticket_number = input('Please enter your ticket number')
